@@ -174,3 +174,39 @@ body{
 .container__botoes:hover{
     background-color: var(--cor-botoes-hover);
 }
+
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container__conteudo__imagem{
+        width: 50vw;
+    }
+    .container__conteudo{
+        padding: 3% 0 0 0;
+        max-width: 100%;
+        height: 100vh;
+        justify-content: center;
+    }
+    .secundaria{
+        margin: 0;
+        text-align: center;
+    }
+    .secundaria__conteudo{
+        align-items: center;
+    }
+    .secundaria__imagem{
+        width: 50vw;
+    }
+    .secundaria__conteudo__botoes{
+        width: 50%;
+    }
+    .dispositivos__lista{
+        flex-direction: column;
+    }
+    .rodape__lista{
+        flex-direction: column;
+    }
+}
